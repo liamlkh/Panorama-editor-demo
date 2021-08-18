@@ -6,7 +6,7 @@ const Panorama = ({ layer, baseImage }) => {
   const materialRef = useRef()
 
   useEffect(() => {
-    const texture = new THREE.TextureLoader().load(baseImage)
+    const texture = new THREE.TextureLoader().load(baseImage.startsWith('data') ? baseImage: process.env.PUBLIC_URL + baseImage)
     materialRef.current.map = texture
   }, [baseImage])
 

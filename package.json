@@ -1,15 +1,17 @@
 {
-  "name": "360-editor",
+  "name": "Panorama-editor-demo",
   "version": "0.0.1",
   "license": "MIT",
-  "homepage": "./",
+  "homepage": "https://liamlkh.github.io/Panorama-editor-demo/",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
     "prettier": "prettier --write **/*.{js,jsx,json}",
     "lint": "eslint **/*.{js,jsx}",
-    "format": "yarn prettier && yarn lint --fix"
+    "format": "yarn prettier && yarn lint --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

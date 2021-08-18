@@ -1,7 +1,6 @@
 import React from 'react'
 import store from '@/store'
 import { useSelector } from "react-redux"
-import api from '@/services/api'
 import { imagePath } from '@/utils/MyUtils'
 
 const ControlBar = () => {

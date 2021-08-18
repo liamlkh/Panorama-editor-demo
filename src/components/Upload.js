@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import store from '@/store';
-import { uploadFile, imagePath } from '@/utils/MyUtils'
+import { imagePath } from '@/utils/MyUtils'
 import GreyBox from '@/components/GreyBox';
 
 const Upload = ({ mode, data }) => {
@@ -11,9 +11,6 @@ const Upload = ({ mode, data }) => {
 
   const [images, setImages] = useState([])
   const [video, setVideo] = useState(null)
-  const [title, setTitle] = useState('')
-  const [description, setDescription] = useState('')
-  const [link, setLink] = useState('')
   const [warning, setWarning] = useState('')
 
   useEffect(() => {
@@ -23,9 +20,6 @@ const Upload = ({ mode, data }) => {
         setImages(item.images)
       else  
         setVideo(item.url)
-      setTitle(item.title)
-      setDescription(item.description)
-      setLink(item.link)
     }
   }, [])
 
