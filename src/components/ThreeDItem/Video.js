@@ -5,10 +5,12 @@ import ItemShader from '@/shaders/ItemShader'
 
 export default function Video({ meshProps, data, isHover }) {
 
-  const { url } = data
+  let { url } = data
+  url = url.startsWith('data') ? url : process.env.PUBLIC_URL + url
   const [video, setVideo] = useState(null)
 
   useEffect(async() => {
+    
     const video = await videoElement(url)
     setVideo(video)
 
