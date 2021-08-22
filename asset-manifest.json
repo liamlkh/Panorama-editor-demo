@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Panorama-editor-demo/static/css/main.c0e1af8b.chunk.css",
-    "main.js": "/Panorama-editor-demo/static/js/main.c7885198.chunk.js",
-    "main.js.map": "/Panorama-editor-demo/static/js/main.c7885198.chunk.js.map",
+    "main.js": "/Panorama-editor-demo/static/js/main.2b79d208.chunk.js",
+    "main.js.map": "/Panorama-editor-demo/static/js/main.2b79d208.chunk.js.map",
     "runtime-main.js": "/Panorama-editor-demo/static/js/runtime-main.1c379354.js",
     "runtime-main.js.map": "/Panorama-editor-demo/static/js/runtime-main.1c379354.js.map",
-    "static/js/2.6ba7214b.chunk.js": "/Panorama-editor-demo/static/js/2.6ba7214b.chunk.js",
-    "static/js/2.6ba7214b.chunk.js.map": "/Panorama-editor-demo/static/js/2.6ba7214b.chunk.js.map",
+    "static/js/2.de89850d.chunk.js": "/Panorama-editor-demo/static/js/2.de89850d.chunk.js",
+    "static/js/2.de89850d.chunk.js.map": "/Panorama-editor-demo/static/js/2.de89850d.chunk.js.map",
     "index.html": "/Panorama-editor-demo/index.html",
     "static/css/main.c0e1af8b.chunk.css.map": "/Panorama-editor-demo/static/css/main.c0e1af8b.chunk.css.map",
-    "static/js/2.6ba7214b.chunk.js.LICENSE.txt": "/Panorama-editor-demo/static/js/2.6ba7214b.chunk.js.LICENSE.txt",
+    "static/js/2.de89850d.chunk.js.LICENSE.txt": "/Panorama-editor-demo/static/js/2.de89850d.chunk.js.LICENSE.txt",
     "static/media/arrow.png": "/Panorama-editor-demo/static/media/arrow.aa7c498e.png",
     "static/media/cursor.mp4": "/Panorama-editor-demo/static/media/cursor.584d2586.mp4",
     "static/media/icon-add.svg": "/Panorama-editor-demo/static/media/icon-add.8ccc6ff5.svg",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1c379354.js",
-    "static/js/2.6ba7214b.chunk.js",
+    "static/js/2.de89850d.chunk.js",
     "static/css/main.c0e1af8b.chunk.css",
-    "static/js/main.c7885198.chunk.js"
+    "static/js/main.2b79d208.chunk.js"
   ]
 }
